@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;    
+    background-image: url("wavy-dots.png");
+    text-align: center;
+    font-family: "Cambria", "Cochin", "Georgia", "Times", "Times New Roman", serif
+}
+
+nav{
+    padding:50px;
+    word-spacing: 1cm;  
+}
+
+h1:hover {
+    font-size:200px;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    padding: 50px;
+}
+
+h2{
+    padding-right: 10px;
+}
+
+
+.article {
+    width: 50%;
+    float: left;
+}
+
+aside {
+    padding-top: 30px;
+    margin-left: 63px;
+    width: 33%;
+    height: 100%;
+    float: left;
+    /* background-color: blueviolet; */
+    border-style: dashed;
+    border-width: 2px;
+}
+
+footer{
+padding:50px;
+
+}
